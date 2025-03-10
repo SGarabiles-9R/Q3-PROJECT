@@ -1,15 +1,15 @@
-:root {
-  /* Primary colors */
-  --primary: #1B2C5D;         /* Main dark blue */
-  --primary-light: #3E4E8A;    /* Lighter blue shade */
-  --primary-dark: #131F3F;     /* Darker blue shade */
+/* Assistance form styling with ChatGPT */
+
+:root { 
+  --primary: #1B2C5D;        
+  --primary-light: #3E4E8A;   
+  --primary-dark: #131F3F;   
   
-  /* Accent colors */
-  --accent: #FAD96A;          /* Main accent gold */
-  --accent-light: #FFF3D0;     /* Lighter accent shade */
-  --accent-dark: #E6C24C;      /* Darker accent shade */
+
+  --accent: #FAD96A;      
+  --accent-light: #FFF3D0;   
+  --accent-dark: #E6C24C;    
   
-  /* Neutral/background */
   --background: #ffffff;
 }
 
