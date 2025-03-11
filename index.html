@@ -28,6 +28,7 @@
 
 
         <!-- Header with Train Images-->
+        <div class="header-style">
         <header class="p-3 d-flex align-items-center justify-content-between">
           <div class="d-flex align-items-center">
               <ul class="nav train-tabs" id="myTab" role="tablist">
@@ -59,13 +60,9 @@
                           <span class="train-label">Tickets</span>
                       </button>
                   </li>
-                  <li class="nav-item" role="presentation">
-                      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab">
-                          <img src="https://i.imgur.com/uH6ZtCS.png" alt="Train Car" class="train-img" />
-                          <br>
-                          <span class="train-label">Contact</span>
-                      </button>
-                  </li>
+
+                  
+
               </ul>
           </div>
 
@@ -86,7 +83,11 @@
             alt="Logo"
             class="header-logo"/>
             </header>
+          </div>
 
+
+
+          
     <!-- Stuff Displayed Per TabPane -->
     <div class="container mt-4">
       <div class="tab-content mt-3 p-3">
@@ -111,17 +112,132 @@
                     <img src="https://i.pinimg.com/236x/6f/32/ca/6f32cafc45f7bddb1112b98423ea7b88.jpg" alt="Image 8">
                 </div>
             </div>
+
+            <div class="startrail-container">
+              <br>
+                  <div class="startrail-welcome">
+                      <h2>Welcome to StartRail!</h2>
+                      <br>
+                      <p>StartRail is your go-to platform for easy and hassle-free train ticket bookings. Plan your journey, check schedules, and book tickets seamlessly—all in one place. Travel smarter with StartRail!</p>
+
+                      <br>
+                  </div>
+
+                  <div class="startrail-content">
+                      <div>
+                          <img src="https://files.oaiusercontent.com/file-QPkkjnMt6y7Ab3ckZh6dwr?se=2025-03-11T14%3A14%3A59Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Db2cdb39b-c8c9-4a56-b874-e922d602f087.webp&sig=zwTkQWtfBOQ81t9N8HnjbfSKeDce7n24x0FpIK%2BJ%2By4%3D" alt="StartRail Illustration" class="startrail-image">
+                      </div>
+
+                   <br><br><br>
+                            <!-- CONTACT INFORMATION AND FORM -->
+                            <div class="startrail-form">
+                                <div class="startrail-header">Leave a Comment</div> <br>
+
+                                <div class="startrail-container">
+                                    <p>We value your feedback. Talk to us.</p> <br>
+
+                                    <label for="feedback" class="startrail-label">Feedback</label> <br>
+                                    <textarea id="feedback" class="startrail-textarea" rows="5" placeholder="Type here..."></textarea><br>
+
+                                    <label for="name" class="startrail-label">Name</label><br>
+                                    <input type="text" id="name" class="startrail-input" placeholder="Your Name"><br>
+
+                                    <label for="email" class="startrail-label">Email</label><br>
+                                    <input type="email" id="email" class="startrail-input" placeholder="Your Email"><br>
+                                    <br>
+                                    <button class="startrail-button">Submit Feedback</button>
+                                </div>
+
+                                <div class="startrail-footer">
+                                    <div class="startrail-header">Help</div>
+                                    <p>For any assistance, feel free to contact us.</p>
+                                    <p>Our Office: .. IDK</p>
+                                    <p>Philippines</p>
+                                    <p>© 2024 GARABILES & ALA</p>
+                                </div>
+                            </div>
+              </div>
+            </div>
+
+
         </div>
 
         <!-- 2nd Train Schedule -->
         <div class="tab-pane fade" id="trains" role="tabpanel">
           <p>View train schedules here.</p>
+          <div class="container mt-4">
+                    <h2 class="mb-3">Train Schedule</h2>
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-striped">
+                            <thead class="table-dark">
+                                <tr>
+                                    <th>Day</th>
+                                    <th>First Train (Antipolo & Recto)</th>
+                                    <th>Last Train</th>
+                                    <th>Frequency (Wed-Fri)</th>
+                                    <th>Frequency (Sat)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td>5:00 AM</td>
+                                    <td>10:00 PM</td>
+                                    <td>5-8 minutes</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td>5:00 AM</td>
+                                    <td>10:00 PM</td>
+                                    <td>5-8 minutes</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>Wednesday</td>
+                                    <td>5:00 AM</td>
+                                    <td>10:00 PM</td>
+                                    <td>5-8 minutes</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>5:00 AM</td>
+                                    <td>10:00 PM</td>
+                                    <td>5-8 minutes</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>5:00 AM</td>
+                                    <td>10:00 PM</td>
+                                    <td>5-8 minutes</td>
+                                    <td>N/A</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>5:00 AM</td>
+                                    <td>9:00 PM</td>
+                                    <td>N/A</td>
+                                    <td>Every 8 minutes</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>5:00 AM</td>
+                                    <td>9:00 PM</td>
+                                    <td>N/A</td>
+                                    <td>N/A</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
         </div>
 
         <!-- 3rd Purchase Tickets -->
         <div class="tab-pane fade" id="tickets" role="tabpanel">
           <p>Purchase your train tickets here.</p>
-          
+
 
             <div class="mrt-container">
               <div class="mrt-left-section">
@@ -176,17 +292,34 @@
                             <option value="regular">Regular</option>
                             <option value="student">Student</option>
                             <option value="senior">Senior</option>
-                        </select>
+                        </select>                <div class="ticket-selector">
+                    <h2>Choose Your Ticket</h2>
+                    <input type="radio" id="standard" name="ticket" class="ticket-option" checked onchange="updateImage()">
+
+                    <label for="standard" class="ticket-label">Standard Ticket</label>
+
+                    <br>
+                    
+                    <input type="radio" id="vip" name="ticket" class="ticket-option" onchange="updateImage()">
+                    <label for="vip" class="ticket-label">VIP Ticket</label>
+
+                    <br>
+                    
+                    <input type="radio" id="premium" name="ticket" class="ticket-option" onchange="updateImage()">
+
+                    <label for="premium" class="ticket-label">Premium Ticket</label>
+                    
+                    <div class="ticket-display">
+                      <img id="ticket-image" src="https://i.pinimg.com/236x/07/59/72/0759726318838a5abba4c1b0eff5441d.jpg" alt="Selected Ticket" class="ticket-image">
+                    </div>
+                  </div>
                     </div>
                     <button type="button" class="btn btn-warning" onclick="calculateFare()">Calculate Fare</button>
                 </form>
+
               </div>
             </div>
                 
-        <!-- 4th Contact Information -->
-          <div class="tab-pane fade" id="contact" role="tabpanel">
-          <p>Get in touch with our support team.</p>
-        </div>
 
 
       </div>
